@@ -1,0 +1,73 @@
+.git-logo{
+    width: 400px;
+    height: 160px;
+    position: relative;
+    left: 230px;
+}
+.github-pic{
+    width: 232px;
+    height: 159px;
+    position: relative;
+    left: 179px;
+}
+.github-logo{
+    width: 394px;
+    height: 113px;
+    position: relative;
+    left: 179px;
+}
+@media (max-width: 1089px) {
+    .git-logo{
+        width: 400px;
+        height: 160px;
+        position: relative;
+        left: 168px;
+    }
+    .github-pic{
+        width: 232px;
+        height: 159px;
+        position: relative;
+        left: 97px;
+    }
+    .github-logo{
+        width: 394px;
+        height: 113px;
+        position: relative;
+        left: 104px;
+    }
+}
+@media (max-width: 765px) {
+    .git-logo{
+        width: 346px;
+        height: 135px;
+        position: relative;
+        left: 0px;
+    }
+    .github-pic{
+        width: 205px;
+        height: 142px;
+        position: relative;
+        left:108px;
+    }
+    .github-logo{
+        width: 326px;
+        height: 86px;
+        position: relative;
+        left: 43px;
+    }
+}
+@media (max-width: 765px) {
+
+    .github-pic{
+        width: 205px;
+        height: 142px;
+        position: relative;
+        left:8px;
+    }
+    .github-logo{
+        width: 326px;
+        height: 86px;
+        position: relative;
+        left: 8px;
+    }
+}

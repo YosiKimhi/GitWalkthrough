@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="col-md-12">
+        <img class ="git-logo" src="https://git-scm.com/images/logos/downloads/Git-Logo-1788C.png" alt="git img">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2">
+    </div>
+            <div class="col-md-10">
+                
+                <h2>GIT Walkthrough Commands!</h2>
+                <br>
+                <ul>
+                    <li><p>'git init' -> initialization of a git repository INSIDE a project folder to be managed by git.</p></li>
+                    <li><p>'git status' -> display status of monitored / tracked files</p></li>
+                    <li><p>'git add .' -> add all files to be tracked (individually -> 'git add filename') (= to 'stage' a file(s))</p></li>
+                    <li><p>'git commit -m "..." -> to save a version of file(s) inside a branch with its name</p></li>
+                    <li><p>'git branch' -> to view the branch(es) available ('*' -> current branch)</p></li>
+                    <li><p>'git log' -> to view list of all commit(s) (last commit (HEAD) is on top of the list) </p></li>
+                    <li><p>'git checkout (id of a commit)' -> to view a commit -> this commit becomes the HEAD but is no longer inside its branch anymore (cannot change and commit because this has no branch)</p></li>
+                    <li><p>'git master' -> reentering master branch</p></li>
+                    <li><p>'git reset --hard (id of commit that we want to use)' -> go to specified commit and  delete all commit(s) after that</p></li>
+                    <li><p>'git checkout -- .' -> delete all unstaged changes and go to the  last commit</p></li>
+                    <li><p>'git checkout -b (branch name)' -> create a new branch which have all commits in the previous branch</p></li>
+                    <li><p>'git checkout master' = 'git master' -> change to (master) branch</p></li>
+                    <li><p>'git merge (name of branch to be merged)' -> merge branches</p></li>
+                    <li><p>'git branch -D (name of branch to be deleted)' -> delete a branch</p></li>
+                    <li><p> to resolve conflict between merged branches -> better do that manually by editing lines ourselves then doing 'add .' and 'commit'</p></li>
+                </ul>
+            </div>
+</div>
+<hr>
+<div class="row">
+        <div class="col-md-12">
+            <img class ="github-pic" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="github img">
+            <img class ="github-logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="gitub logo">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+                <div class="col-md-10">
+                    
+                    <h2>Github Walkthrough Commands!</h2>
+                    <br>
+                    <ul>
+                        <li><p>'git remote add origin (Github repo link!) ' - push an existion repo from the command line (this is the connection).</p></li>
+                        <li><p>'git push -u origin master' push the commited master branch to github repo.</p></li>
+                        <li><p>'git remote' shows the conncetion name we choosed.</p></li>
+                        <li><p>'git branch -r' shows if we a connection between our branch and the connection (origin/master).</p></li>
+                        <li><p>'git clone (Github repo link!)'  -  clone remote repo!</p></li>
+                        <li><p>'git fetch'- get the origin/master branch to the local repo.</p></li>
+                        <li><p>'git merge origin/master'  -  merge the origin/master to the local mater branch.</p></li>
+                        <li><p>'git pull'  - fetch the branch and merge it.</p></li>
+                    </ul>
+                </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <p>This site made by Yosi Kimhi inspired by <a href ="https://www.academind.com/">Academind</a> videos. I did this to learn and reference git and github basic commands. if there is command that I missed please send me email to yosefik@gmail.com.</p>
+        </div>
+    </div>
+
+  
